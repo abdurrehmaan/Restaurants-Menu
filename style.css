@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+:root{
+    --golden : #c59d5f;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.menu-title{
+    margin-top: 3rem;
+}
+.menu-title  span{
+    font-size: 2rem;
+    font-weight: 700;
+    width: 10%;
+    color: #182433;
+    border-bottom: 5px solid var(--golden);
+}
+.catagories ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 30px;
+}
+.catagories ul li {
+    margin: 10px;
+    padding: 5px 10px;
+    font-size: 1rem;
+    border: 2px solid var(--golden);
+    border-radius: 5px;
+    color: var(--golden)
+}
+.catagories ul li:hover{
+    background-color: var(--golden);
+    color: white;
+}
+/* content */
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content .c-image {
+    width: 1000px;
+    height: 160px;
+    border: 3px solid var(--golden);
+    border-radius: 5px;
+}
+.content .c-image img {
+    width: 100%;
+    height: 100%;
+}
+.content .t-n-p{
+    margin-left: 20px;
+    width: 1000px;
+}
+.content .t-n-p .header{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px dotted #182433;
+  padding: 0px 5px;
+}
+.content .t-n-p .title {
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.content .t-n-p .price {
+    font-size: 0.8rem;
+    font-weight: 800;
+    color: var(--golden);
+    word-spacing: 2px;
+}
+.content .t-n-p .des p{
+    font-size: 0.9rem;
+}
